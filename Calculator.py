@@ -41,9 +41,9 @@ def calculator():
         print(f"{n1} {operation} {n2} = {result}")
 
         again = input("Do you want to perform another calculation? (yes/no): ")
-        if again == "yes":
+        if again == "y" or again == "yes":
             continue
-        elif again == "no":
+        elif again == "n" or again == "no":
             print("Thank you for using the calculator. Goodbye!")
             break
         else:
